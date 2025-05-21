@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slide 5 Musik</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    .slide1class {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 2em;
+    }
+
+    .allslide {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 2em;
+    }
+
+    #slide1 { background: #1e3c72; }
+    #slide2 { background: #2a5298; }
+    #slide3 { background: #6dd5fa; }
+    #slide4 { background: #2193b0; }
+    #slide5 { background: #6a11cb; }
+    #slide6 { background: #1e3c72; }
+    #slide7 { background: #2a5298; }
+    #slide8 { background: #6dd5fa; }
+    #slide9 { background: #1e3c72; }
+
+    .tombol-musik {
+      padding: 15px 30px;
+      font-size: 18px;
+      color: #fff;
+      background: linear-gradient(135deg, #00c9ff, #92fe9d);
+      border: none;
+      border-radius: 40px;
+      cursor: pointer;
+      transition: 0.3s ease;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .tombol-musik:hover {
+      transform: scale(1.05);
+    }
+
+
+    .container {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 40px;
+      font-family: Arial, sans-serif;
+    }
+
+    .text {
+      flex: 1;
+      font-size: 20px;
+    }
+
+    .image {
+      flex: 1;
+    }
+
+    .image img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+  </style>
+</head>
+<body>
+
+  <!-- Slide 1 dengan tombol -->
+  <section class="slide1class" id="slide1">
+    <div class="container">
+            <div class="text">
+                <h2>KALIAN MAU TAU TENTANG PERGAULAN BEBAS?</h2>
+            </div>
+
+        <button class="tombol-musik" onclick="playAndGoToSlide2()">Lets Go</button>
+    </div>
+    
+  </section>
+
+  <section class="allslide" id="slide2">
+  
+    <div class="container">
+            <div class="text">
+                <h2>PENGERTIAN</h2>
+                <p> Pergaulan bebas mengacu pada interaksi sosial yang tidak terikat norma dan aturan sosial 
+                    yang berlaku di suatu masyarakat. Ini mencakup berbagai perilaku, 
+                    dan definisinya bisa berbeda tergantung pada konteks budaya dan agama.
+                </p>
+            </div>
+        <div class="image">
+        <img src="IMG/1.jpeg" alt="Foto Alam">
+        </div>
+        <button class="tombol-musik" onclick="playAndGoToSlide3()">Next Slide</button>
+    </div>
+        
+        
+    
+  </section>
+  <section class="allslide" id="slide3">
+
+    <div class="container">
+            <div class="text">
+                <h2>DAMPAK NEGATIF PERGAULAN BEBAS</h2>
+                <p> Kehamilan yang tidak diinginkan: Seks pranikah dapat mengakibatkan kehamilan 
+                    yang tidak direncanakan, yang dapat berdampak besar pada kehidupan remaja dan orang dewasa muda.</p>
+            </div>
+        <div class="image">
+        <img src="IMG/2.jpg" alt="Foto">
+        </div>
+        <button class="tombol-musik" onclick="playAndGoToSlide4()">Next Slide</button>
+    </div>
+        
+  </section>
+  <section class="allslide" id="slide4">
+
+    <div class="container">
+            <div class="text">
+                <h2></h2>
+                <p> Penyakit menular seksual (PMS): Hubungan seksual tanpa perlindungan dapat 
+                    menyebabkan berbagai penyakit menular seksual, beberapa di antaranya dapat 
+                    menyebabkan infertilitas atau bahkan kematian.
+                </p>
+            </div>
+        <div class="image">
+        <img src="IMG/3.jpg" alt="Foto">
+        </div>
+        <button class="tombol-musik" onclick="playAndGoToSlide5()">Next Slide</button>
+    </div>
+        
+  </section>
+  <section class="allslide" id="slide5">
+        <div class="container">
+            <div class="text">
+                <h2></h2>
+                <p> Rusaknya reputasi: Terlibat dalam perilaku yang dianggap 
+                    tidak pantas dapat merusak reputasi seseorang di masyarakat.</p>
+            </div>
+        <div class="image">
+        <img src="IMG/4.jpg" alt="Foto">
+        </div>
+        <button class="tombol-musik" onclick="playAndGoToSlide6()">Next Slide</button>
+        </div>
+  </section>
+
+  <section class="allslide" id="slide6">
+        <div class="container">
+            <div class="text">
+                <h2></h2>
+                <p> Konflik sosial: Pergaulan bebas dapat menyebabkan 
+                    konflik di dalam keluarga dan masyarakat.</p>
+            </div>
+        <div class="image">
+        <img src="IMG/5.jpeg" alt="Foto">
+        </div>
+        <button class="tombol-musik" onclick="playAndGoToSlide7()">Next Slide</button>
+        </div>
+  </section>
+
+  <section class="allslide" id="slide7">
+        <div class="container">
+            <div class="text">
+                <h2></h2>
+                <p> Pelanggaran hukum: Beberapa perilaku yang berkaitan dengan pergaulan 
+                    bebas dapat melanggar hukum, seperti perkelahian, penggunaan narkoba, 
+                    dan tindakan kriminal lainnya.</p>
+            </div>
+        <div class="image">
+        <img src="IMG/6.jpg" alt="Foto">
+        </div>
+        <button class="tombol-musik" onclick="playAndGoToSlide8()">Next Slide</button>
+        </div>
+  </section>
+
+  <section class="allslide" id="slide8">
+        <div class="container">
+            <div class="text">
+                <h2>CIRI CIRI PERGAULAN BEBAS</h2>
+                <p> 1.Hubungan seksual yang tidak bertanggung jawab <br>
+                    2.Penggunaan narkoba dan alkohol yang berlebihan <br>
+                    3.Kurangnya rasa hormat terhadap norma dan nilai sosial <br>
+                    4.Perilaku yang menantang otoritas <br>
+                    5.Gaya hidup hedonistis <br>
+                    6.Lingkaran pergaulan yang negatif
+                </p>
+            </div>
+        
+        <button class="tombol-musik" onclick="playAndGoToSlide9()">Next Slide</button>
+        </div>
+  </section>
+
+  <section class="allslide" id="slide9">
+        <div class="container">
+            <div class="text">
+                <h2>FAKTOR FAKTOR PENYEBAB PERGAULAN BEBAS</h2>
+                <p> 1. Faktor Individu <br>
+                    2. Faktor Keluarga <br>
+                    3. Faktor Lingkungan <br>
+                    4. Faktor Sosial Budaya
+                </p>
+            </div>
+     
+        <button class="tombol-musik" onclick="playAndGoToSlide10()">Next Slide</button>
+        </div>
+  </section>
+
+
+
+  <!-- Audio -->
+  <audio id="musik">
+    <source src="IMG/musik.mp3" type="audio/mpeg">
+    Browser kamu tidak mendukung audio.
+  </audio>
+
+  <!-- Script -->
+  <script>
+    function playAndGoToSlide2() {
+      const audio = document.getElementById("musik");
+      audio.play();
+
+      document.getElementById("slide2").scrollIntoView({ behavior: "smooth" });
+    }
+    function playAndGoToSlide3() {
+      document.getElementById("slide3").scrollIntoView({ behavior: "smooth" });
+    }
+    function playAndGoToSlide4() {
+      document.getElementById("slide4").scrollIntoView({ behavior: "smooth" });
+    }
+    function playAndGoToSlide5() {
+      document.getElementById("slide5").scrollIntoView({ behavior: "smooth" });
+    }
+    function playAndGoToSlide6() {
+      document.getElementById("slide6").scrollIntoView({ behavior: "smooth" });
+    }
+    function playAndGoToSlide7() {
+      document.getElementById("slide7").scrollIntoView({ behavior: "smooth" });
+    }
+    function playAndGoToSlide8() {
+      document.getElementById("slide8").scrollIntoView({ behavior: "smooth" });
+    }
+    function playAndGoToSlide9() {
+      document.getElementById("slide9").scrollIntoView({ behavior: "smooth" });
+    }
+  </script>
+
+</body>
+</html>
